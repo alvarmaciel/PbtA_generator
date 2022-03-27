@@ -1,0 +1,62 @@
+#+TITLE: Powered by the Apocalypse generator
+
+* Juegos de rol y python
+- En los juegos de rol, podemos habitar un mundo ficcional, interpretar a sus habitantes jugando a vivir en este mundo y relatar las historias que lo componen sus personajes. O construir la estructura del mundo ficcional, jugando a dar forma a los habitantes que no son jugadores, los elementos y culturas del mundo en el que los personajes narran sus historias.
+- En cualquiera de los casos. Construimos un mundo. Esta idea de construcción de mundo se asemeja en algún punto al de modelar.
+
+* Estructura de generador
+
+** Formulario de creación de características
+    - Nombre: Fuerza
+
+** Formulario de creación de movimientos iniciales
+    - Nombre:      Escapar
+    - Descripción: Salir corriendo
+    - Modificadores:
+        | Característica | Modificador |
+        |----------------+-------------|
+        | Fuerza         |          +1 |
+        | Destreza       |           0 |
+
+** Formulario de creación de aspectos
+    - Nombre: Ojos
+
+** Formulario de creación de razas
+    - Nombre:      Enano
+    - Descripción: ...
+
+** Formulario de creación de alineamientos
+    - Nombre:      Bueno
+    - Descripción: .....
+
+** Formulario de creación de clases
+  - Nombre:                        Mago
+  - Base de punto de golpe:        Constitución
+  - Modificador de punto de golpe: +1
+  - Punto de golpe máximo:         16
+  - Modificadores:
+      | Característica | Modificador |
+      |----------------+-------------|
+      | Fuerza         |          +1 |
+      | Destreza       |           0 |
+      |                |             |
+ Limi
+  - Razas compatibles:
+    - [ ] Enano
+    - [x] Humano
+- Alineamientos compatibles:
+  - [ ] Bueno
+  - [x] Malo
+- Movimientos iniciales:
+  - Nombre: Lanzar conjuro
+  - Descripción: Narración Fuerza
+
+** Formulario de creación de personajes
+  - Clase: Mago
+  - Raza: Humano
+  - Valores de características:
+    | Característica | Valor | Modificador (auto) |
+    |----------------+-------+--------------------|
+    | Fuerza         |    16 |                 +2 |
+    | Destreza       |    14 |                 -1 |
+    |                |       |                    |
