@@ -3,6 +3,7 @@
 * Juegos de rol y python
 - En los juegos de rol, podemos habitar un mundo ficcional, interpretar a sus habitantes jugando a vivir en este mundo y relatar las historias que lo componen sus personajes. O construir la estructura del mundo ficcional, jugando a dar forma a los habitantes que no son jugadores, los elementos y culturas del mundo en el que los personajes narran sus historias.
 - En cualquiera de los casos. Construimos un mundo. Esta idea de construcción de mundo se asemeja en algún punto al de modelar.
+- El proyecto se propone construir un generador de personajes para [[https://en.wikipedia.org/wiki/Powered_by_the_Apocalypse][Juego de rol PbtA]]
 
 * Estructura de generador
 
